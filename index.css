@@ -1,0 +1,32 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: #b0665d;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 500px;
+}
+
+.img {
+  width: 33px;
+  height: 33px;
+  margin-top: 500px;
+  transform: rotate(160deg);
+  animation: move 1.7s infinite ease-in;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(160deg);
+  }
+  50% {
+    transform: rotate(170deg);
+  }
+  100% {
+    transform: rotate(160deg);
+  }
+}
